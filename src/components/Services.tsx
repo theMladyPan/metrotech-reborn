@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { motion } from 'framer-motion';
 import { Activity, Ruler, Cpu } from 'lucide-react';
 
