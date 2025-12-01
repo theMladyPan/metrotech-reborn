@@ -1,6 +1,13 @@
 services:
-  web:
-    build: .
+  web-v1:
+    build: ./v1
     ports:
-      - "8081:80"
+      - "8080:80"
+      - "8081:8080" # Mapping 8080 from container (if using listen 8080) to 8081 host
+    restart: always
+
+  web-v2:
+    build: ./v2
+    ports:
+      - "8010:80"
     restart: always
