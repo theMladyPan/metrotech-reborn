@@ -50,28 +50,12 @@ const About = () => {
               <h3 className="text-2xl font-bold text-white mb-6 font-orbitron text-center">
                 System Overview
               </h3>
-              <div className="space-y-4">
-                 <div className="flex items-center justify-between p-4 bg-slate-900 rounded border border-slate-700">
-                    <span className="text-cyan-400 font-mono">Sensors</span>
-                    <div className="h-0.5 flex-1 bg-slate-700 mx-4 relative overflow-hidden">
-                       <div className="absolute inset-0 bg-cyan-500/50 animate-pulse"></div>
-                    </div>
-                    <span className="text-white font-mono">Data Logger</span>
-                 </div>
-                 <div className="flex items-center justify-between p-4 bg-slate-900 rounded border border-slate-700">
-                    <span className="text-white font-mono">Data Logger</span>
-                    <div className="h-0.5 flex-1 bg-slate-700 mx-4 relative overflow-hidden">
-                       <div className="absolute inset-0 bg-fuchsia-500/50 animate-pulse" style={{animationDelay: '0.5s'}}></div>
-                    </div>
-                    <span className="text-fuchsia-400 font-mono">Cloud Server</span>
-                 </div>
-                 <div className="flex items-center justify-between p-4 bg-slate-900 rounded border border-slate-700">
-                    <span className="text-fuchsia-400 font-mono">Cloud Server</span>
-                    <div className="h-0.5 flex-1 bg-slate-700 mx-4 relative overflow-hidden">
-                       <div className="absolute inset-0 bg-purple-500/50 animate-pulse" style={{animationDelay: '1s'}}></div>
-                    </div>
-                    <span className="text-white font-mono">Client Dashboard</span>
-                 </div>
+              <div className="flex justify-center">
+                <img 
+                  src="/images/working_system_EN3.png" 
+                  alt="Metrotech System Overview" 
+                  className="w-full max-w-md h-auto rounded-lg shadow-lg border border-slate-700 bg-white/5 p-2"
+                />
               </div>
               <p className="mt-6 text-center text-sm text-gray-400">
                 Modular system paired with scalable cloud data access
