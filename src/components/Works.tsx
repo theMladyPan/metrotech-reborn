@@ -6,19 +6,19 @@ const Works = () => {
     {
       title: 'Steel Arena',
       category: 'Structural Monitoring',
-      image: 'https://images.unsplash.com/photo-1514330143167-36e7494480d5?auto=format&fit=crop&q=80&w=1000',
+      image: '/images/steel-arena.jpg',
       description: 'Long-term structural health monitoring system.'
     },
     {
       title: 'Bojnicka Bridge',
       category: 'Dynamic Analysis',
-      image: 'https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&q=80&w=1000',
+      image: '/images/bojnicka-bridge.jpg',
       description: 'Vibration analysis and load testing.'
     },
     {
       title: 'Hydrostatic Nivelation',
       category: 'Precision Measurement',
-      image: 'https://images.unsplash.com/photo-1581092921461-eab62e97a78e?auto=format&fit=crop&q=80&w=1000',
+      image: '/images/hydrostatic-nivelation.jpg',
       description: 'High-precision liquid leveling systems.'
     }
   ];
